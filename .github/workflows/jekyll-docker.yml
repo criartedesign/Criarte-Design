@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Criarte Design - Soluções Criativas</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f4;
+
+        }
+
+        header {
+
+            background-color: #333;
+
+            color: white;
+
+            padding: 10px 0;
+
+            text-align: center;
+
+        }
+
+        nav ul {
+
+            padding: 0;
+
+            list-style: none;
+
+            text-align: center;
+
+        }
+
+        nav ul li {
+
+            display: inline;
+
+            margin-right: 20px;
+
+        }
+
+        nav ul li a {
+
+            color: white;
+
+            text-decoration: none;
+
+            font-size: 18px;
+
+        }
+
+        .hero {
+
+            background-image: url('https://via.placeholder.com/1920x600'); /* Imagem de fundo */
+
+            background-size: cover;
+
+            background-position: center;
+
+            height: 600px;
+
+            color: white;
+
+            text-align: center;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+        }
+
+        .hero h1 {
+
+            font-size: 50px;
+
+        }
+
+        .hero p {
+
+            font-size: 24px;
+
+        }
+
+        .services {
+
+            padding: 50px 20px;
+
+            text-align: center;
+
+        }
+
+        .services h2 {
+
+            font-size: 36px;
+
+        }
+
+        .service-item {
+
+            display: inline-block;
+
+            width: 30%;
+
+            margin: 20px;
+
+            background-color: white;
+
+            padding: 20px;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .contact {
+
+            background-color: #333;
+
+            color: white;
+
+            padding: 50px 20px;
+
+            text-align: center;
+
+        }
+
+        .contact h2 {
+
+            font-size: 36px;
+
+        }
+
+        footer {
+
+            background-color: #222;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 10px 0;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <h1>Criarte Design</h1>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#">Início</a></li>
+
+                <li><a href="#">Sobre Nós</a></li>
+
+                <li><a href="#">Serviços</a></li>
+
+                <li><a href="#">Portfólio</a></li>
+
+                <li><a href="#">Contactos</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <section class="hero">
+
+        <h1>Soluções Criativas para Marcas Inovadoras</h1>
+
+        <p>Transformamos as suas ideias em design impactante e funcional.</p>
+
+    </section>
+
+
+
+    <section class="services">
+
+        <h2>Os Nossos Serviços</h2>
+
+        <div class="service-item">
+
+            <h3>Branding e Identidade Visual</h3>
+
+            <p>Criamos identidades visuais que destacam a sua marca no mercado.</p>
+
+        </div>
+
+        <div class="service-item">
+
+            <h3>Design de Produto</h3>
+
+            <p>Desenvolvemos produtos inovadores, focados na usabilidade e funcionalidade.</p>
+
+        </div>
+
+        <div class="service-item">
+
+            <h3>Design Gráfico</h3>
+
+            <p>Materiais gráficos de alta qualidade para promover a sua empresa.</p>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="contact">
+
+        <h2>Contacte-nos</h2>
+
+        <p>Telefone: +351 912 345 678</p>
+
+        <p>Email: info@criartedesign.pt</p>
+
+        <p>Endereço: Rua da Criatividade, nº 123, Lisboa</p>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>© 2024 Criarte Design - Todos os Direitos Reservados</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
